@@ -7,8 +7,8 @@ function App() {
       <header>
         <h1 className="title">Vegetables</h1>
         <div className="box1">
-          <img src="../public/images/btn_facebook.png" className="fb_icon" />
-          <img src="../public//images/btn_instagram.png" className="ig_icon" />
+          <img src="/images/btn_facebook.png" className="fb_icon" />
+          <img src="/images/btn_instagram.png" className="ig_icon" />
           <div className="line1"></div>
           <a href="#" className="login_btn"><p className="login">LOGIN</p></a>
           <a href="#" className="join_btn"><p className="join">JOIN</p></a>
@@ -21,16 +21,16 @@ function App() {
         <a href="#" className="nav_online">Online</a>
         <a href="#" className="nav_contact">Contact</a>
       </nav>
-      <img src="../public/images/img_main_pumpkin.png" className="main_img" />
+      <img src="/images/img_main_pumpkin.png" className="main_img" />
       <div className="main_content">
         <div className="contents">
           <div className="box2">
             <p className="contents_text">Vegetables</p>
           </div>
           <div className="contents_img">
-            <img src="../public/images/img_vegetables_pepper.png" className="img1" />
-            <img src="../public/images/img_vegetables_carrot.png" className="img2" />
-            <img src="../public/images/img_vegetables_corn.png" className="img3" />
+            <img src="/images/img_vegetables_pepper.png" className="img1" />
+            <img src="/images/img_vegetables_carrot.png" className="img2" />
+            <img src="/images/img_vegetables_corn.png" className="img3" />
           </div>
         </div>
         <div className="contact">
