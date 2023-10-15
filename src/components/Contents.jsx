@@ -1,3 +1,5 @@
+import vegetable from '../ison/vegetables.json';
+
 export default function Contents() {
     return (
         <>
@@ -8,9 +10,9 @@ export default function Contents() {
                         <p className="contents_text">Vegetables</p>
                     </div>
                     <div className="contents_img">
-                        <img src="/images/img_vegetables_pepper.png" className="img1" />
-                        <img src="/images/img_vegetables_carrot.png" className="img2" />
-                        <img src="/images/img_vegetables_corn.png" className="img3" />
+                        {vegetable.map((item) => (
+                            <img src={item.image} className="img1" />
+                        ))}
                     </div>
                 </div>
                 <div className="contact">
